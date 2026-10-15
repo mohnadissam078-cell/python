@@ -1,0 +1,4 @@
+names_list = input ("enter the first and last name separeted by comma: ").split(", ")
+friends = []
+friends.append(names_list )
+print(", ".join(friends))

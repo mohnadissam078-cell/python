@@ -1,0 +1,30 @@
+print ("Hello there😉")
+print ("welcome to the maze here only tuff people can survive u have to get ready!")
+print ("the freaky cheff offerd a three type of food only on of them isnt poisend u have to choose carfully ")
+food = input("cheakin or meat or vegetables \n").lower()
+if food == "cheakin":
+    print ("game over!")
+elif food == 'meat':
+    print("game over")
+elif food ==("vegetables"):
+    print (" good choise")
+    water =input (" now choose the water in the cup or in the bottle one of them r poisend tho \n").lower()
+    if water== ("cup"):
+        print (" sorry u got poisend")
+    elif water == ("bottle"):
+        print ("good choise")
+        door= input ("now u have to get the correct door to get out of this maze choose between red or white or black \n").lower()
+        if door == "red":
+         print("a zombie had fucked u up")
+        elif door == "black" :
+           print("u found lions and they killed u")
+        elif door== "white":
+           print (" congrats u made it and get out from this maze")
+        else:
+           print (" respect the rules nga ")
+    else:
+     print (" respect the rules nga ")
+else:
+  print (" respect the rules nga")        
+
+    
